@@ -69,7 +69,7 @@ class Flower{
         let a = i*TAU/5;
         let s = this.weights[i];
         let b = (this.l2*.2 + .8)*(s*.1 + .9)
-        fill(255, 192, 203);
+        fill(255, 0, 0);
         if (j == 0){
           s += .05;
           fill(0);
