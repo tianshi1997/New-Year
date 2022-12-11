@@ -69,7 +69,7 @@ class Flower{
         let a = i*TAU/5;
         let s = this.weights[i];
         let b = (this.l2*.2 + .8)*(s*.1 + .9)
-        fill(255, 0, 0);
+        fill(350, 25, 100);
         if (j == 0){
           s += .05;
           fill(0);
@@ -104,7 +104,7 @@ function init(){
 function write(){
   textSize(24);
   text('唔西迪西下午好！', 0, 200);
-  fill(0, 1, 1);
+  fill(350, 25, 100);
 }
 
 
