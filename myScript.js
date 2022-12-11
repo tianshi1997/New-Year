@@ -101,11 +101,7 @@ function init(){
   flowers = flowers.sort((a, b) => a.s - b.s);
 }
 
-function write(){
-  textSize(24);
-  text('唔西迪西下午好！', 0, 200);
-  fill(300, 100, 10);
-}
+
 
 
 function draw(){
@@ -114,7 +110,6 @@ function draw(){
   flowers.map(f => f.update());
   flowers.map(f => f.renderStem());
   flowers.map(f => f.render());
-  write();
 }
 
 function windowResized(){
