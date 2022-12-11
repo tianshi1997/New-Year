@@ -87,7 +87,7 @@ class Flower{
 function setup (){
   pixelDensity(1);
   createCanvas();
-  colorMode(HSB, 300, 100, 10);
+  colorMode(HSB, 1, 1, 1);
   windowResized();
 }
 
